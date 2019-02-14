@@ -17,12 +17,12 @@ function equalSum(array) {
             isThereMatch = true;
         }
     }
-        if(array.length === 1) {
-            index = 0;
-        }
+    if (array.length === 1) {
+        index = 0;
+    }
 
-        if(index !== 0 && !isThereMatch) {
-            index = 'no';
-        }
-        console.log(index);
+    if (index !== 0 && !isThereMatch) {
+        index = 'no';
+    }
+    console.log(index);
 }
